@@ -1,0 +1,13 @@
+for(int row =1 ; row<=n; row++){
+    for(int col=1; col<=n; col++){
+        cout << *
+    }
+    cout <<endl;  //main
+}
+
+row=1 col 1 ->5 *****
+row=2 col 1 ->5 *****
+row=3 col 1 ->5 *****
+row=4 col 1 ->5 *****
+row=5 col 1 ->5 *****
+

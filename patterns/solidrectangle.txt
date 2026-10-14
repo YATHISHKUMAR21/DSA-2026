@@ -1,0 +1,12 @@
+for(int row=1 ; row<=len; row++){
+    for (int col=1; col<=breadth; col++){
+        cout << "*" << " " ;
+    }
+    cout << endl;
+}
+
+len =3 , breadth =5
+
+row =1 ,col 1->5 *****
+row=2 , col 1->5 *****
+row=3 , col 1->5 *****

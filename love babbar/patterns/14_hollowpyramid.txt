@@ -1,0 +1,40 @@
+int n=3
+int n1=n-1
+int n2=n
+int n3=n-1
+//1st part
+
+for(int row=1; row<=n1; row++){
+    //spaces
+    for(col=1;col<=n-r+1;col++){
+        cout<< " "
+    }
+    if(row==1) cout << *
+    else{
+        cout<<*
+        for(col=1; col<=2row-3; col++){
+            cout<< " "
+        }
+        cout<<*
+    }
+    endl
+}
+
+//2nd part
+cout<<*
+for(col=1;<<2*n2-3; col++){cout<<" "}
+cout<<*
+
+//3rd part
+for(int row=1; row<=n3; row++){
+    for(col=1;col<=row3; col++){
+        cout<<" "
+    }
+    if(row==n3){
+        cout<<*
+    }else{
+        cout<<*
+        for(here i am not sure but i am suspecting col=1;col<=2n3-2row-1;col++){cout " "}
+        cout<<*
+    }
+}

@@ -1,0 +1,30 @@
+for(row=1;row<=n;row++){
+    //space 
+    for(col=1; col<=n-row; col++){
+        cout _
+    }
+
+    if(row==1){cout *}
+    else if (row==n)
+    {
+        for(col=1;col<=2n-1;col++){
+            cout<<*
+        }
+
+    }
+    else{
+        cout<<*
+        for(col=1;col<2r-3;col++){
+            cout<<-
+        }
+        cout<<*
+    }
+    endl
+}
+
+n==4
+
+_ _ _ *
+_ _ * _ *
+_ * _ _ _ *
+* * * * * * *

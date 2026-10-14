@@ -1,0 +1,9 @@
+for(int row=1; row<=n; row++){
+    for(col=1; col<=n-r; col++){
+        cout << space
+    }
+    for(col=1; col<2*r-1; col++){
+        cout<<*
+    }
+    cout<<endl
+}

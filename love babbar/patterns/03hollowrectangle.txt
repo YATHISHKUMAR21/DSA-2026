@@ -1,0 +1,31 @@
+******
+*    *
+*    *
+******
+
+n=4 , m=6
+
+for(int row=1; row<=n; row++){
+    if(row==1 || row==n){
+        for(int col=1; col<=m; col++){
+            cout << *
+        }
+    }
+    else{
+        cout << *
+        for(int col=1; col <=m-2 ; col++){
+            (because 2 stars are print at ist and last colums )
+            cout << "  "
+        }
+        cout<< *
+    }
+    cout<<endl;
+
+}
+row=1 col 1->5 *****
+row=2  first * for col1->(m-2=>5-2=3) so col 1to3. ,3 space last *.  *_____*
+row=3  first * for col1->3 space last *.  *_____*
+row=4  first * for col1->3 space last *.  *_____*
+row=5 col1-5 , *****
+
+

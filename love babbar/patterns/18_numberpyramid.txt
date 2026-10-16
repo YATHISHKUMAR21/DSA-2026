@@ -1,0 +1,11 @@
+n=4
+
+- - - 1
+- - 1 2
+- 1 2 3
+1 2 3 4
+
+for(row=1; row<=n; row++){
+    for(col=1; col<=n-r; col++){cout << _}
+    for(col=1; col<=r ; col++){ cout << col}
+}

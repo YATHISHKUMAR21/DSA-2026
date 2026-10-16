@@ -1,0 +1,40 @@
+* - - - - - *
+- * - - - *
+- - * - * ========> till here part 1 n1=3
+- - - *.  ========> from here part 2 will start n2=4 n+1
+- - * - * 
+- * - - - *
+* - - - - - *
+
+
+part 1 
+for(int row=1;row<=n1; row++){
+    spaces
+    for(col=1; col<row-1;col++){
+        cout<<-
+    }
+    cout<<*
+    for(col=1;col<2n-2r+1; col++){
+        cout<<_
+    }
+    cout<<*
+
+    endl
+}
+
+part 2
+for(int row=1;row<=n2; row++){
+    spaces
+    for(col=1; col<n-row;col++){
+        cout<<-
+    }
+    if(row==1){cout<<*}
+    else
+    cout<<*
+    for(col=1;col<2r-3; col++){
+        cout<<_
+    }
+    cout<<*
+
+    endl
+}

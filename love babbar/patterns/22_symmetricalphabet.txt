@@ -1,0 +1,27 @@
+class Solution {
+public:
+    void printSymmetricAlphabetPyramid(int n) {
+        // Implement the pattern printing logic here
+
+        for(int row=1;row<=n;row++){
+
+            //spaces
+            for(int col=1; col<=n-row; col++){
+                cout<<" ";
+            }
+            //right angle triagle
+            char ch='A';
+            for(int col=1;col<=row;col++){
+                cout<<ch;
+                ch++;
+            }
+            //next one
+            char ch2='A';
+            for(int col=row-1;col>=1; col--){
+                cout<<char(ch2+col-1);
+            }
+
+            cout<<endl;
+        }
+    }
+};

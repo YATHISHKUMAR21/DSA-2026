@@ -1,0 +1,24 @@
+class Solution {
+public:
+    void printInvertedAlphabetTriangle(int n) {
+        // Implement the pattern printing logic here
+
+        for(int row=1; row<=n; row++){
+            char ch='A';
+            for(int col=1; col<=n-row+1; col++){
+                cout<<ch;
+                ch++;
+            }
+            cout<<endl;
+        }
+
+        //  for(int row=1; row<=n; row++){
+            
+        //     for(char ch='A'; ch<='A'-(n-row+1); ch++){
+        //         cout<<ch;
+                
+        //     }
+        //     cout<<endl;
+        // }
+    }
+};

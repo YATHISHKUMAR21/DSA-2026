@@ -1,0 +1,14 @@
+class Solution {
+public:
+    void printPascalsTriangle(int n) {
+        // Implement the pattern printing logic here
+        for(int row=1; row<=n; row++){\
+            int ele=1;
+            for(int col=1; col<=row; col++){
+                cout<<ele<<" ";
+                ele=ele*(row-col)/col;
+            }
+            cout<<endl;
+        }
+    }
+};

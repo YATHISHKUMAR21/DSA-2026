@@ -14,7 +14,7 @@ for(int row=1; row<=n; row++){
     else{
         cout << *
         for(int col=1; col <=m-2 ; col++){
-            (because 2 stars are print at ist and last colums )
+            //(because 2 stars are print at ist and last colums )
             cout << "  "
         }
         cout<< *

@@ -1,0 +1,14 @@
+class Solution {
+public:
+    void printAlphabetTriangle(int n) {
+        // Implement the pattern printing logic here
+        for(int row=1; row<=n; row++){
+            char ch='A';
+            for(int col=1; col<=row; col++){
+                cout<<ch;
+                ch++;
+            }
+            cout<<endl;
+        }
+    }
+};
